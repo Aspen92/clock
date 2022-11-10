@@ -4,7 +4,7 @@
 }
 
 body {
-  position: fixed;
+  position: relative;
   width: 100vw;
   height: 100vh;
   background-color: black;
@@ -16,7 +16,7 @@ body {
 }
 
 .background-image {
-  position: fixed;
+  position: absolute;
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -24,7 +24,7 @@ body {
 }
 
 .transparent-div {
-  position: fixed;
+  position: absolute;
   margin-top: 300px;
   background: linear-gradient(
       to bottom,
