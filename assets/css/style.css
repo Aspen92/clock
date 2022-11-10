@@ -4,7 +4,7 @@
 }
 
 body {
-  position: relative;
+  position: fixed;
   width: 100vw;
   height: 100vh;
   background-color: black;
@@ -16,7 +16,7 @@ body {
 }
 
 .background-image {
-  position: absolute;
+  position: fixed;
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -24,7 +24,7 @@ body {
 }
 
 .transparent-div {
-  position: absolute;
+  position: fixed;
   margin-top: 300px;
   background: linear-gradient(
       to bottom,
@@ -63,10 +63,12 @@ body {
 @media only screen and (max-width: 600px) {
   .transparent-div {
     width: 80%;
+    margin-top: 150px;
   }
 
   .clock-container {
     width: 80%;
+    margin-top: 150px;
   }
 
   #clock {
